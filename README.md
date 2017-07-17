@@ -22,8 +22,14 @@ training-demos-1.0-SNAPSHOT-bin.jar
 To run the web application simply run this command
 
 
+Inception (smaller and loads faster)
 ```
 java -cp training-demos-1.0-SNAPSHOT-bin.jar ai/skymind/training/InceptionWebApp
+```
+
+VGG16
+```
+java -cp training-demos-1.0-SNAPSHOT-bin.jar ai/skymind/training/VGG1parkJavaWebApp
 ```
 
 This will launch a web application listening on the following urls. 
