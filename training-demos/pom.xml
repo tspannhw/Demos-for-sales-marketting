@@ -132,9 +132,21 @@
           <artifactId>spark-core</artifactId>
           <version>2.5.4</version>
       </dependency>
+      <dependency>
+          <groupId>org.deeplearning4j</groupId>
+          <artifactId>deeplearning4j-parallel-wrapper_2.10</artifactId>
+          <version>0.8.1-SNAPSHOT</version>
+      </dependency>
 
 
-    </dependencies>
+      <!--dependency>
+          <groupId>org.deeplearning4j</groupId>
+          <artifactId>deeplearning4j-cuda-8.0</artifactId>
+          <version>${dl4j.version}</version>
+      </dependency-->
+
+
+  </dependencies>
     <build>
         <plugins>
             <plugin>
