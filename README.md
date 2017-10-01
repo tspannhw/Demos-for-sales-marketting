@@ -1,4 +1,4 @@
-# Demos-for-sales-marketting
+# Forked Demos-for-sales-marketing
 
 This includes two imagenet classifiers, VGG16 and inception. 
 
